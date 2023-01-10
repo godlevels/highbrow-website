@@ -9,9 +9,10 @@ import Testimonial from '../components/Testimonial';
 // import Contact from './components/Contact';
 import Footer from '../components/Footer';
 import Copyright from '../components/Copyright';
-import Services from '../components/Services';
+import Services from '../components/Services'; 
 import Talk from '../components/Talk';
 import Courses from '../components/Courses';
+import Faq from '../components/Faq';
 
 const HomePage = () => {
   return (
@@ -20,10 +21,11 @@ const HomePage = () => {
         <Hero />
         <About />
         <Services />
-        <Courses />
+        <Courses /> 
         <GallerySection />
         <Interview />
         <Testimonial />
+        <Faq />
         <Talk />
         {/* <Contact /> */}
         <Footer />

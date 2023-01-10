@@ -21,54 +21,58 @@ const Experience = () => {
               <p className='text-[14px] lg:text-[16px] text-[#FAFAFA]'>With over seven years of delivering quality <br /> work to our clients worldwide, we are committed <br /> to serving our client's needs and delivering <br /> <span className='text-[#DA7717]'> beyond their expectations.</span></p>
             </div>
             <div className='mr-[400px]'>
-              <img className='w-96 mt-20 absolute' src={ExperienceBg} alt="" />
+              <img className='w-96 mt-44 absolute' src={ExperienceBg} alt="" />
             </div>
           </div>
           <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)}>
-          <div className='flex flex-col lg:flex-row lg:justify-between mx-8 lg:mx-12 gap-14 lg:gap-36 relative'>
-            <div>
-              <img className='ml-6' src={ProjectsBag} alt="" />
-              <div className='flex gap-3'>
-                <img src={ExpLine} alt="" />
-                <div>
-                  <h1 className='text-[20px] text-[#ffffff] font-semibold'> {counterOn && <CountUp start={0} end={30} duration={2} delay={0} />} +</h1>
-                  <p className='text-[16px] text-[#ffffff] capitalize mt-4'>completed projects</p>
+          <div className=''>
+            <div className='flex gap-x-32 mx-12 mb-10'>
+              <div>
+                <img className='ml-6' src={ProjectsBag} alt="" />
+                <div className='flex gap-3'>
+                  <img src={ExpLine} alt="" />
+                  <div>
+                    <h1 className='text-[20px] text-[#ffffff] font-semibold'> {counterOn && <CountUp start={0} end={3000} duration={2} delay={0} />} +</h1>
+                    <p className='text-[16px] text-[#ffffff] capitalize mt-4'>completed projects</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div>
+                <img className='ml-6' src={Research} alt="" />
+                <div className='flex gap-3'>
+                  <img src={ExpLine} alt="" />
+                  <div>
+                    <h1 className='text-[20px] text-[#ffffff] font-semibold'> {counterOn && <CountUp start={0} end={50} duration={2} delay={0} />} +</h1>
+                    <p className='text-[16px] text-[#ffffff] capitalize mt-4'>researchers</p>
+                  </div>
                 </div>
               </div>
             </div>
 
 
-            <div>
-              <img className='ml-6' src={Research} alt="" />
-              <div className='flex gap-3'>
-                <img src={ExpLine} alt="" />
-                <div>
-                  <h1 className='text-[20px] text-[#ffffff] font-semibold'> {counterOn && <CountUp start={0} end={25000} duration={2} delay={0} />} +</h1>
-                  <p className='text-[16px] text-[#ffffff] capitalize mt-4'>researchers</p>
+            <div className='flex gap-x-32 mx-12'>
+              <div>
+                <img className='ml-6' src={ThumbsUp} alt="" />
+                <div className='flex gap-3'>
+                  <img src={ExpLine} alt="" />
+                  <div>
+                  <h1 className='text-[20px] text-[#ffffff] font-semibold'> {counterOn && <CountUp start={0} end={600} duration={2} delay={0} />} +</h1>
+                    <p className='text-[16px] text-[#ffffff] capitalize mt-4'>satisfied customers</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
 
-            <div>
-              <img className='ml-6' src={ThumbsUp} alt="" />
-              <div className='flex gap-3'>
-                <img src={ExpLine} alt="" />
-                <div>
-                <h1 className='text-[20px] text-[#ffffff] font-semibold'> {counterOn && <CountUp start={0} end={10000} duration={2} delay={0} />} +</h1>
-                  <p className='text-[16px] text-[#ffffff] capitalize mt-4'>satisfied customers</p>
-                </div>
-              </div>
-            </div>
-
-
-            <div>
-              <img className='ml-6' src={AWards} alt="" />
-              <div className='flex gap-3'>
-                <img src={ExpLine} alt="" />
-                <div>
-                  <h1 className='text-[20px] text-[#ffffff] font-semibold'>5</h1>
-                  <p className='text-[16px] text-[#ffffff] capitalize mt-4'>awards won</p>
+              <div>
+                <img className='ml-6' src={AWards} alt="" />
+                <div className='flex gap-3'>
+                  <img src={ExpLine} alt="" />
+                  <div>
+                    <h1 className='text-[20px] text-[#ffffff] font-semibold'>2</h1>
+                    <p className='text-[16px] text-[#ffffff] capitalize mt-4'>awards won</p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -5,7 +5,7 @@ import { WhyChooseData } from '../data'
 
 const WhyChooseUs = () => {
   return (
-    <div className='bg-[#F3F0EB] py-10'>
+    <div className='bg-[#F3F0EB] py-10'> 
         <div className='flex justify-center'>
             <img className='h-14' src={WhyHead} alt="" />
         </div>

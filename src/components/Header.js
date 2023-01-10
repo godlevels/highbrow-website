@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Payment from './Socials';
 import Logo from '../img/header/logoo.png'
 import NavMobile from './NavMobile';
+import Telephone from '../img/header/tele.png'
 
 const Header = () => {
   const [bg, setBg] = useState(false)
@@ -27,7 +28,13 @@ const Header = () => {
       </nav>
       <a href="/" className='max-w-[200px]'><img className='mr-40' src={Logo} alt="" /></a>
         <div className='hidden xl:flex'> 
-
+          <div>
+            <div className='flex gap-x-3 justify-end'>
+              <img className='h-4 mt-1' src={Telephone} alt="" />
+              <h1 className='text-[#1A1A1A] text-[16px] font-medium'>Call:</h1>
+            </div>
+            <Link to='/+234 701 280 7297' className='text-[#1A1A1A] text-[16px] font-medium'>+234 701 280 7297</Link>
+          </div>
           <Payment /> 
         </div>
     </div>

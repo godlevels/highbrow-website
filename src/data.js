@@ -19,6 +19,11 @@ import serviceEight from '../src/img/service/eight.png'
 import imageT from '../src/img/whychoose/whyline.png'
 import imageL from '../src/img/whychoose/cube.png'
 import QuoteImg from '../src/img/testimonial/quote.svg';
+import FaqHead from '../src/img/faq/fa.png'
+import AvartarImg1 from '../src/img/testimonial/Amanda.png'
+import AvartarImg2 from '../src/img/testimonial/Edochie.png'
+import AvartarImg3 from '../src/img/testimonial/Tijani.png'
+import AvartarImg4 from '../src/img/testimonial/Amanda.png'
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
@@ -135,6 +140,40 @@ export const chooseData = [
   },
 ]
 
+export const testimonials = {
+  head: 'Testimonials',
+  title: 'What our Clients say about us',
+  clients: [
+    {
+      message: "Your writing services came in handy and helped me a lot. I have been struggling with my Master's thesis, and I tried researching materials for my project but needed to figure out how to do it. The delivery from your team was excellent, solid, and timely. My thesis was ranked as one of the best, as I scored an A in my project work. Your Writers did an excellent  job, especially on short notice. I'm indeed so happy and would refer more clients for similar assistance.",
+      image: AvartarImg1,
+      name: 'Amanda Nweze',
+      borderColor: '#FF7235',
+    },
+
+    {
+      message: "I can tell that you carefully studied the book, did thorough research and thoughtfully presented your ideas. The relevant arguments are well constructed and related together clearly, achieving a good overall analysis and synthesis without being superfluous. The essay is well structured and perfectly balances context, research, discussion, analysis, and synthesis.",
+      image: AvartarImg2,
+      name: 'Edochie Wabaranta',
+      borderColor: '#FFBE21',
+    },
+
+    {
+      message: "After getting a series of rejections for my MBA program in the United Kingdom, I saw your company ads on Instagram and decided to give a trial. The Statement of Purpose was delivered, to my surprise, within three days and was marvelled with the quality of the write-up. The way the writer captured my interests, background and experiences were fantastic. At the end of my application process, I got an MBA admission into 4 top universities in the United Kingdom that I applied to.",
+      image: AvartarImg3,
+      name: 'David Tijani',
+      borderColor: '#4756DF',
+    },
+
+    {
+      message: "Your writing services came in handy and helped me a lot. I have been struggling with my Master's thesis, and I tried researching materials for my project but needed to figure out how to do it. The delivery from your team was excellent, solid, and timely. My thesis was ranked as one of the best, as I scored an A in my project work. Your Writers did an excellent  job, especially on short notice. I'm indeed so happy and would refer more clients for similar assistance.",
+      image: AvartarImg4,
+      name: 'Alade Matthew',
+      borderColor: '#3EC1F3',
+    },
+  ]
+}
+
 export const serviceData = [
   {
     id: '1',
@@ -226,6 +265,62 @@ export const testimonialData = [
   },
 ];
 
+export const faq = {
+  title: FaqHead,
+
+  accordions: [
+    {
+      question: 'Can you guarantee a good grade?',
+      answer: 'As a user of our services, you agree that if any written materials are delivered to you, it shall be delivered only as a model answer. All written materials delivered to you are for research and reference purposes only. Hence we do not guarantee for grades.',
+    },
+
+    {
+      question: 'Can you find a writer for all academic subjects?',
+      answer: "Of course! We are proud to have some of the best writers in Sub-Saharan Africa who are well versed in all academic subjects. No matter your academic level or the paper's complexity, we will find the best expert since our team includes writers that cut across every discipline.",
+    },
+
+    {
+      question: 'Can you help with editing and proofreading?',
+      answer: 'Yes, the company has additional services related to editing and proofreading. The editor team will find all errors and fix them. Also, writers will help improve the structure, the consistency of the presentation of thoughts, remove repetitions and help with the work design.',
+    },
+
+    {
+      question: 'Can I place orders for free?',
+      answer: "Of course! We do not charge you for placing an order. Moreover, the order form does not force you to do anything. You can also evaluate a writer's skills by asking him to create a small piece of work. If you are sure of the author, you transfer the money to the balance, and the author starts writing. However, the author will receive money for the work, provided that you have no comments.",
+    },
+
+    {
+      question: 'Do you give discounts?',
+      answer: 'Our company has a reasonable pricing policy. We have set affordable rates for clients. We highly appreciate the work of the authors, and we need to pay for their work fairly. There are no discounts in our company. However, you can agree with the author yourself reduce the cost of the document.',
+    },
+
+    {
+      question: 'Can I make changes to the order?',
+      answer: 'If you want to increase the number of pages, you will need to pay extra for this. If you wish to shorten the lead time, there will be an additional charge for this. To change the details of the order, you should contact the support service. The consultant will make any changes to your project and inform you about the amount that needs to be paid.',
+    },
+
+    {
+      question: 'Do you resell my papers to other students?',
+      answer: 'Never! All copyrights belong to you. Authors write the paper from scratch and do not post documents on other websites. We guarantee that neither your classmates nor teachers will know that you have worked with us. If you are providing formatting requirements from an educational institution, we recommend that you do not give the full name educational institution to the author.',
+    },
+
+    {
+      question: 'What is your policy on plagiarism?',
+      answer: 'Each and every paper, produced by our company is 100% original. We use an in-house plagiarism detection system that recognizes any kind of Internet content plagiarism.',
+    },
+
+    {
+      question: 'What is your policy on delivery?',
+      answer: 'Our dedicated staff of experienced researchers and writers will work according to your instructions. They are capable of delivering an assignment for 4 hours, if necessary, as well as through the whole time range to 6 weeks.',
+    },
+
+    {
+      question: 'Is it ethical to buy model papers for your assignment?',
+      answer: 'Yes, it is ethical to receive help in creating your assignment. There are private tutors who provide help in studies, and we do the same but as a company. Not all students have equal knowledge and skills and some of them need more help in their studies than others. Our mission is to assist those students who have to deal with part-time jobs or time restrictions to achieve high academic performance.',
+    },
+  ]
+}
+
 export const contactData = {
   title: 'Get in touch with me:',
   info: [
@@ -289,7 +384,6 @@ export const footerData = {
       { href: '/', name: 'Company' },
       { href: '/', name: 'Services' },
       { href: '/', name: 'Testimonials' },
-      { href: '/', name: 'Pricing' },
     ],
   },
   linkssupp: {
