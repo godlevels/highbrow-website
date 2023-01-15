@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { footerData } from '../data';
+import { Link } from 'react-router-dom';
 
 const Copyright = () => {
   const { footadd } = footerData
@@ -16,7 +17,7 @@ const Copyright = () => {
             delay: '0.2',
           }}
           viewport={{once: false, amount: 0}}
-          className='text-[16px] text-white/70 tracking-[0.02em] text-base'>&copy; 2022 Highbrow Research. All right reserved.</motion.div>
+          className='text-[16px] text-white/70 tracking-[0.02em] text-base'>&copy; 2023 Highbrow Research. All right reserved.</motion.div>
         </div>
 
         <motion.div initial={{y: 40, opacity: 0}}
@@ -27,9 +28,9 @@ const Copyright = () => {
             delay: '0.2',
           }}
           viewport={{once: false, amount: 0}} className='flex gap-x-5 my-3 cursor-pointer'>
-          <img className='w-6 h-6 hover:translate-y-1 duration-500' src={footadd.insta} alt="" />
-          <img className='w-6 h-6 hover:translate-y-1 duration-500' src={footadd.face} alt="" />
-          <img className='w-6 h-6 hover:translate-y-1 duration-500' src={footadd.twit} alt="" />
+          <Link to='https://www.instagram.com/tv/CSDL2band_x/?igshid=YmMyMTA2M2Y='><img className='hover:translate-y-1 duration-500' src={footadd.insta} alt="" /></Link>
+          <Link to='https://www.facebook.com/profile.php?id=100064903179873&mibextid=LQQJ4d'><img className='hover:translate-y-1 duration-500' src={footadd.face} alt="" /></Link>
+          <Link to='https://twitter.com/highbrowr?t=7QvvV9Jcip1KS5ks2D8lUg&s=09'><img className='hover:translate-y-1 duration-500' src={footadd.twit} alt="" /></Link>
         </motion.div>
       </div>
     </div>

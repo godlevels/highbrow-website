@@ -17,10 +17,13 @@ const Accordion = ({ accordion }) => {
                 </div>
             </div>
 
-            <div className={`bg-[#F3F0EB] ${isOpen ? 'min-h-[130px] lg:min-h-[160px]' : 'min-h-0'} max-h-0 overflow-hidden flex justify-center transition-all ease-linear duration-500 px-[30px]`}>
-                <div className='mt-3'>{answer}</div>
+            <div>
+                <div className={`bg-[#F3F0EB] ${isOpen ? 'min-h-[130px] lg:min-h-[160px]' : 'min-h-0'} max-h-0 overflow-hidden flex justify-center transition-all ease-linear duration-500 px-[30px]`}>
+                    <div className='mt-3'>{answer}</div>
+                </div>
             </div>
         </div>
+        
     )
 }
 

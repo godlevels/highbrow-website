@@ -18,7 +18,7 @@ const Experience = () => {
           <div className='flex justify-between mx-8 lg:mx-12 py-14 gap-2 lg:gap-20'>
             <div className='mt-20'>
               <div className='text-[30px] lg:text-[36px] text-[#FAFAFA] font-semibold'>More Than <span className='text-[#DA7717]'> 7 Years </span> <br /> Of Experience</div>
-              <p className='text-[14px] lg:text-[16px] text-[#FAFAFA]'>With over seven years of delivering quality <br /> work to our clients worldwide, we are committed <br /> to serving our client's needs and delivering <br /> <span className='text-[#DA7717]'> beyond their expectations.</span></p>
+              <p className='text-[14px] lg:text-[16px] text-[#FAFAFA] my-5'>With over seven years of delivering quality <br /> work to our clients worldwide, we are committed <br /> to serving our client's needs and delivering <br /> <span className='text-[#DA7717]'> beyond their expectations.</span></p>
             </div>
             <div className='mr-[400px]'>
               <img className='w-96 mt-44 absolute' src={ExperienceBg} alt="" />

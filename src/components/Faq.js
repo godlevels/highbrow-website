@@ -14,7 +14,7 @@ const Faq = () => {
                 <div className='grid grid-cols-2 gap-3 mb-14'>{accordions.map((accordion, idx)=> {
                         return <Accordion accordion={accordion} key={idx} />
                     })}
-                </div>
+                </div> 
             </div>
         </section>
     )

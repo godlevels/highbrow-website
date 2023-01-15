@@ -398,8 +398,8 @@ export const footerData = {
     title: 'Legal',
     items: [
       { href: '/', name: 'Terms & Conditions' },
-      { href: '/', name: 'Privacy & Policy' },
-      { href: '/', name: 'Contact' },
+      { href: '/privacy', name: 'Privacy & Policy' },
+      { href: '/contact', name: 'Contact' },
     ],
   },
 

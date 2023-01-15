@@ -13,6 +13,7 @@ import Services from '../components/Services';
 import Talk from '../components/Talk';
 import Courses from '../components/Courses';
 import Faq from '../components/Faq';
+import ChatBot from '../components/ChatBot';
 
 const HomePage = () => {
   return (
@@ -29,6 +30,7 @@ const HomePage = () => {
         <Talk />
         {/* <Contact /> */}
         <Footer />
+        <ChatBot />
         <Copyright />
         {/* <div className='h-[4000px]'></div> */}
     </div>

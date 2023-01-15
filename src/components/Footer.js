@@ -27,7 +27,7 @@ const Footer = () => {
         <motion.div
         variants={fadeIn('up')}
          className='flex-1 flex flex-col gap-y-6'>
-          <div>
+          <div className='mr-6'>
             <img className='w-24 lg:w-32' src={FootLogo} alt="" />
 
             <div>
@@ -39,7 +39,7 @@ const Footer = () => {
         variants={fadeIn('up')}
         className='flex-1'>
           <div className=''>
-            <div className='text-[20px] font-medium'>{linksovers.title}</div>
+            <div className='text-[20px] font-medium'>{linksovers.title}</div> 
             <ul className=''>
               {linksovers.items.map((item, i) => {
                 const {href, name} = item
@@ -83,7 +83,7 @@ const Footer = () => {
         <motion.div 
         variants={fadeIn('up')}
         className='flex-1'>
-          <div>
+          <div className='leading-7'>
             <div className='text-[20px] font-medium'>{footadd.title}</div>
             <div className='text-white/70 hover:text-gray-400 text-[15px] duration-300'>{footadd.number}</div>
             <div className='text-white/70 hover:text-gray-400 text-[15px] duration-300'>{footadd.address}</div>

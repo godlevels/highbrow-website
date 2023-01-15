@@ -1,6 +1,7 @@
 import React from 'react'
 import talkLine from '../img/talk/line.png'
 import callIcon from '../img/talk/call.png'
+import { Link } from 'react-router-dom'
 
 const Talk = () => {
   return (
@@ -19,13 +20,13 @@ const Talk = () => {
                 </div>
 
                 <div className='flex items-center justify-center gap-8'>
-                    <button className='border rounded-full px-3 py-1 text-[16px] font-[400] capitalize'>place order</button>
+                    <Link to='/placeorder'><button className='border rounded-full px-3 py-1 text-[16px] font-[400] capitalize'>place order</button></Link>
                     <div className='flex gap-2 cursor-pointer'>
                         <img className='h-5 w-5 mt-1 items-center animate-bounce' src={callIcon} alt="" />
-                        <h2 className='text-[16px] font-[400]'>Call or chat with us</h2>
+                        <Link to='/contact'><h2 className='text-[16px] font-[400]'>Call or chat with us</h2></Link>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     </section>
   )

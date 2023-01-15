@@ -18,7 +18,7 @@ const GallerySection = () => {
           {chooseData.map((data, i) => {
             return <div key={i}>
               <div className='flex'>
-                <img className='mt-14 h-24' src={data.side} alt="" />
+                <img className='mt-14' src={data.side} alt="" />
                 <div>
                   <img src={data.icon1} alt="" />
                   <h1 className='text-[#1A1A1A] text-[20px] font-medium pl-8 my-3'>{data.title}</h1>

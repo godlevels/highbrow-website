@@ -65,7 +65,7 @@ const Testimonial = () => {
 
         <div className='mx-12'>
           <ClientSlider clients={clients} />
-        </div>
+        </div> 
       </div>
     </section>
   )
