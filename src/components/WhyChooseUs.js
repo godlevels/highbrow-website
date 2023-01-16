@@ -14,9 +14,9 @@ const WhyChooseUs = () => {
             {WhyChooseData.map((item) => {
                 return <div key={item.id}>
                     <div className='flex gap-3'>
-                        <img className='my-3' src={item.iconC} alt="" />
+                        <img className='my-3 h-6' src={item.iconC} alt="" />
                         <div>
-                            <h1 className='text-[#1A1A1A] text-[20px] font-medium'>{item.title}</h1>
+                            <h1 className='text-[#1A1A1A] text-[20px] font-medium'>{item.title}</h1> 
                             <img className='h-1 mb-3' src={item.iconW} alt="" />
                             <p className='text-[#1A1A1A] text-[16px]'>{item.subtitle}</p> 
                         </div>

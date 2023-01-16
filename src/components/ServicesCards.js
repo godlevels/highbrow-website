@@ -8,10 +8,12 @@ import CardSix from '../img/service/six.png'
 import CardSeven from '../img/service/seven.png'
 import CardEight from '../img/service/eight.png'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../variants'
 
 const ServicesCards = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 max-w-sm mx-auto md:max-w-none md:mx-12'>
+    <motion.div initial={{ opacity:0, translateX: -50, translateY: -50, }} animate={{ opacity:1, translateX: 0, translateY: -50, }} transition={{ duration: 2.5, delay: 0.1 }} variants={fadeIn('right')}  whileInView={'show'}  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 max-w-sm mx-auto md:max-w-none md:mx-12'>
           {/* {serviceData.map((item) => {
             return <div key={item.id}>
               <div className='h-[450px] mb-5 border border-[#e4e4e4] relative overflow-hidden group transition cursor-pointer'>
@@ -25,6 +27,10 @@ const ServicesCards = () => {
             </div>
           })} */}
 
+
+       
+       
+
           <div className='mb-5 relative overflow-hidden group transition cursor-pointer'>
             <div className='relative'>
               <div>
@@ -33,7 +39,7 @@ const ServicesCards = () => {
               <h1 className='absolute top-5 left-5 text-[18px] text-white font-bold'>Business plan, <br /> profile and proposal</h1>
               <div className='bg-[#E08E3E] pt-0 mt-0 border-t-8 border-[#E08E3E]'>
                 <p className='text-[14px] text-[#1A1A1A] p-4'>Take your business to the next level by building compelling business plans, profiles and proposals.</p>
-                <Link to='/businessplan'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4'>Learn More</button></Link>
+                <Link to='/businessplan'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4 hover:bg-[#1A1A1A] hover:text-[#fafafa] transition-all ease-linear duration-300'>Learn More</button></Link>
               </div>
             </div>
           </div>
@@ -46,7 +52,7 @@ const ServicesCards = () => {
               <h1 className='absolute top-5 left-5 text-[18px] text-white font-bold'>Personal Statement</h1>
               <div className='bg-[#ECBB8B] pt-0 mt-0 border-t-8 border-[#ECBB8B]'>
                 <p className='text-[14px] text-[#1A1A1A] p-4'>Stand a higher chance to gain that admission or scholarship with our Personal Statement.</p>
-                <Link to='/personalstatement'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4'>Learn More</button></Link>
+                <Link to='/personalstatement'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4 hover:bg-[#1A1A1A] hover:text-[#fafafa] transition-all ease-linear duration-300'>Learn More</button></Link>
               </div>
             </div>
           </div>
@@ -59,7 +65,7 @@ const ServicesCards = () => {
               <h1 className='absolute top-5 left-5 text-[18px] text-white font-bold'>Study Abroad</h1>
               <div className='bg-[#F8E4D1] pt-0 mt-0 border-t-8 border-[#F8E4D1]'>
                 <p className='text-[14px] text-[#1A1A1A] p-4'>Contact educational consultants to guide and help process your study visa application glitch-free.</p>
-                <Link to='/studyabroad'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4'>Learn More</button></Link>
+                <Link to='/studyabroad'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4 hover:bg-[#1A1A1A] hover:text-[#fafafa] transition-all ease-linear duration-300'>Learn More</button></Link>
               </div>
             </div>
           </div>
@@ -72,7 +78,7 @@ const ServicesCards = () => {
               <h1 className='absolute top-5 left-5 text-[18px] text-white font-bold'>CV & Cover Letter <br /> Writing</h1>
               <div className='bg-[#F3F0EB] mt-0 border-t-8 border-[#F3F0EB] pb-5'>
                 <p className='text-[14px] text-[#1A1A1A] p-4'>Secure your dream job with a neatly written CV and cover Letter.</p>
-                <Link to='/coverletter'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mt-4'>Learn More</button></Link>
+                <Link to='/coverletter'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mt-4 hover:bg-[#1A1A1A] hover:text-[#fafafa] transition-all ease-linear duration-300'>Learn More</button></Link>
               </div>
             </div>
           </div>
@@ -85,7 +91,7 @@ const ServicesCards = () => {
               <h1 className='absolute top-5 left-5 text-[18px] text-white font-bold'>PhD Proposals</h1>
               <div className='bg-[#F3F0EB] mt-0 border-t-8 border-[#F3F0EB]'>
                 <p className='text-[14px] text-[#1A1A1A] p-4'>Stand a higher chance to secure a PhD opening with our neatly written PhD Proposals.</p>
-                <Link to='/phdproposals'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4'>Learn More</button></Link>
+                <Link to='/phdproposals'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4 hover:bg-[#1A1A1A] hover:text-[#fafafa] transition-all ease-linear duration-300'>Learn More</button></Link>
               </div>
             </div>
           </div>
@@ -98,7 +104,7 @@ const ServicesCards = () => {
               <h1 className='absolute top-5 left-5 text-[18px] text-white font-bold'>Assignments & <br /> Projects</h1>
               <div className='bg-[#F8E4D1] pt-0 mt-0 border-t-8 border-[#F8E4D1] pb-5'>
                 <p className='text-[14px] text-[#1A1A1A] p-4'>Secure your grades with us and embark on your path to academic excellence.</p>
-                <Link to='/assignments&projects'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mt-4'>Learn More</button></Link>
+                <Link to='/assignments&projects'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mt-4 hover:bg-[#1A1A1A] hover:text-[#fafafa] transition-all ease-linear duration-300'>Learn More</button></Link>
               </div>
             </div>
           </div>
@@ -111,7 +117,7 @@ const ServicesCards = () => {
               <h1 className='absolute top-5 left-5 text-[18px] text-white font-bold'>Proofreading & <br /> Editing</h1>
               <div className='bg-[#ECBB8B] pt-0 mt-0 border-t-8 border-[#ECBB8B]'>
                 <p className='text-[14px] text-[#1A1A1A] p-4'>Get the best Proofreaders and Editors at your service. Prune and Polish your papers with our help.</p>
-                <Link to='/proofreading&editing'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4'>Learn More</button></Link>
+                <Link to='/proofreading&editing'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4 hover:bg-[#1A1A1A] hover:text-[#fafafa] transition-all ease-linear duration-300'>Learn More</button></Link>
               </div>
             </div>
           </div>
@@ -124,7 +130,7 @@ const ServicesCards = () => {
               <h1 className='absolute top-5 left-5 text-[18px] text-white font-bold'>LinkedIn <br /> Optimization</h1>
               <div className='bg-[#E08E3E] pt-0 mt-0 border-t-8 border-[#E08E3E] pb-5'>
                 <p className='text-[14px] text-[#1A1A1A] p-4'>Make your profile stand out to colleagues and recruiters on the platform.</p>
-                <Link to='/linkedin'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mt-4'>Learn More</button></Link>
+                <Link to='/linkedin'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mt-4 hover:bg-[#1A1A1A] hover:text-[#fafafa] transition-all ease-linear duration-300'>Learn More</button></Link>
               </div>
             </div>
           </div>
@@ -141,7 +147,7 @@ const ServicesCards = () => {
           
 
           
-        </div>
+        </motion.div>
   )
 }
 

@@ -23,7 +23,9 @@ import FaqHead from '../src/img/faq/fa.png'
 import AvartarImg1 from '../src/img/testimonial/Amanda.png'
 import AvartarImg2 from '../src/img/testimonial/Edochie.png'
 import AvartarImg3 from '../src/img/testimonial/Tijani.png'
-import AvartarImg4 from '../src/img/testimonial/Amanda.png'
+import AvartarImg4 from '../src/img/testimonial/one.png'
+import AvartarImg5 from '../src/img/testimonial/two.png'
+import AvartarImg6 from '../src/img/testimonial/three.png'
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
@@ -166,10 +168,24 @@ export const testimonials = {
     },
 
     {
-      message: "Your writing services came in handy and helped me a lot. I have been struggling with my Master's thesis, and I tried researching materials for my project but needed to figure out how to do it. The delivery from your team was excellent, solid, and timely. My thesis was ranked as one of the best, as I scored an A in my project work. Your Writers did an excellent  job, especially on short notice. I'm indeed so happy and would refer more clients for similar assistance.",
+      message: "You have the best writers. Keep it up! I keep appreciating your good work. I got an admission together with a scholarship using your personal statement. Thank you so much Highbrow.",
       image: AvartarImg4,
-      name: 'Alade Matthew',
+      name: 'Tobi Ajetumobi',
+      borderColor: '#FFBE21',
+    },
+
+    {
+      message: "I'm not great at talking about myself or promoting myself so it was great to have someone do that. My assigned writer was able to pull up a better story than what I had. Now, I'm in an excellent company that values me as an employee.",
+      image: AvartarImg5,
+      name: 'Esther Nwafor',
       borderColor: '#3EC1F3',
+    },
+
+    {
+      message: "I can confidently advise anyone in need of a personal statement for a scholarship to the UK or any other country to use Highbrow Research. I contacted them to write my personal statement and they did a fantastic job. In ddition to being accepted to the school, I also received a scholarship. My plagiarism report was delivered with my personal statement as well",
+      image: AvartarImg6,
+      name: 'George Mbaise',
+      borderColor: '#4756DF',
     },
   ]
 }

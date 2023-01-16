@@ -4,14 +4,14 @@
 
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets .swiper-pagination-horizontal {
-    width: 50%;
+    width: 20%;
 }
 
 .swiper-pagination-bullet {
-    background-color: blue;
+    background-color: #F3F0EB;
     opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #f063b8 !important;
+    background-color: #DA7717 !important;
 }

@@ -37,7 +37,7 @@ const AboutPage = () => {
                 <img className='h-14' src={Writers} alt="" />
                 <p className='text-[16px] font-normal text-[#1A1A1A]'>Our team of writers and consultants are highly qualified and experienced. Our <br /> screening process for writers is highly competitive, and we engage the best writers <br /> and professionals globally. <br /> Each of them has its area of specialization and expertise, which aids our excellent <br /> deliveries. Our writers and consultants work round the clock to ensure the timely <br /> delivery of projects and tasks so that clients can have enough time to review before <br /> the deadline and submission. <br /> Success stories and testimonials from our clients show that we have consistently <br /> provided value to our clients worldwide. Our writers and consultants provide specific <br /> solutions to your writing needs and address your concerns as appropriate.</p>
               </div>
-              <img className='my-12' src={Women} alt="" />
+              <img className='my-12' src={Women} alt="" /> 
             </div>
             
           </div>

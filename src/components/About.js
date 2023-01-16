@@ -36,7 +36,7 @@ const About = () => {
         whileInView={'show'}
         viewport={{once: false, amount: 0.6}}
         >
-          <img className='object-cover h-[400px] w-[566px] md:mx-auto lg:mx-0 rounded' src={AboutImg} alt="" />
+          <img className='object-cover h-[400px] w-[566px] md:mx-auto lg:mx-0 rounded-md' src={AboutImg} alt="" />
         </motion.div>
       </div>
     </div>

@@ -31,7 +31,7 @@ const Hero = () => {
             </div>
             <Link to='/about'>
               <div className='flex'>
-                <img src={VideoBtn} alt="" className='text-red-400 h-12 w-12 lg:h-14 lg:w-14 cursor-pointer'/>
+                <img src={VideoBtn} alt="" className='text-red-400 h-12 w-12 lg:h-14 lg:w-14 cursor-pointer animate-spin'/>
                 <h1 className='pt-4 text-[#1A1A1A] text-[16px] font-medium'>Watch Video</h1>
               </div>
             </Link>
