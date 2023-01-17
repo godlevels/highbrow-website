@@ -6,7 +6,7 @@ import Fra from '../img/businessplan/Frame.png'
 import Cal from '../img/businessplan/frames.png'
 import Sets from '../img/businessplan/framess.png'
 import WorkH from '../img/businessplan/head.png'
-import SideC from '../img/businessplan/circle.png'
+import SideC from '../img/assignment/circle.png'
 import Talk from '../components/Talk'
 import Footer from '../components/Footer'
 

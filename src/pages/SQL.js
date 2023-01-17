@@ -21,7 +21,7 @@ const SQL = () => {
                 <div className=''>
                     <div className='my-12'>
                         <p className='text-[16px] text-[#1A1A1A]'>SQL stands for Structured Query Language, and is a special programming <br /> language used to manipulate and retrieve data stored in a relational <br /> database management system. SQL skill is a must have for any data <br /> professional, also given that the modern data stack is built on it. This <br /> training, like every of our data courses, is hands on and project based to <br /> help consolidate our learnings.</p>
-                        <button className='text-white bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] py-[10px] px-[20px] rounded-3xl hover:text-[#DA7717] my-6'>Get started </button>
+                        <a href="https://forms.office.com/r/byt4i0VjfR"> <button className='text-white bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] py-[10px] px-[20px] rounded-3xl hover:text-[#DA7717] my-6'>Get started </button></a>
                     </div>
 
                 <div className='mx-5'>

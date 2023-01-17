@@ -12,7 +12,7 @@ const CoursesCards = () => {
     <section>
         <div className='container mx-auto'>
             <div className='grid md:grid-cols-2 gap-x-4 mx-12 mt-10'>
-                <div className='bg-white shadow-lg rounded-2xl p-8'>
+                <div className='bg-white shadow-lg rounded-2xl p-8 mb-4'>
                     <img src={imageC} alt="" />
                     <h1 className='text-[18px] text-[#002E5A] font-medium my-3'>Structured Query Language (SQL)</h1>
                     <p className='text-[16px] text-[#002E5A] font-normal my-3'>Structured Query Language is the most used tool by data <br /> professionals, for querying and interacting with databases.</p>
@@ -23,7 +23,7 @@ const CoursesCards = () => {
                     <img src={imageO} alt="" />
                     <h1 className='text-[18px] text-[#002E5A] font-medium my-3'>Python</h1>
                     <p className='text-[16px] text-[#002E5A] font-normal my-3'>Python is a multi-purpose high level langauge crucial for gaining <br /> mastery over advanced data analysis to enable you stand out from <br /> the crowd.</p>
-                    <Link to='/courses/python'><button className='border border-[#002E5A] text-[14px] font-normal mt-3 rounded-full py-1 px-3 hover:bg-[#002e5a] hover:text-white transition duration-300 ease-in'>Learn More</button></Link>
+                    <Link to='/courses/python'><button className='border border-[#002E5A] text-[14px] font-normal mt-3 rounded-full py-1 px-3 hover:bg-[#002e5a] hover:text-white transition duration-300 ease-in'>Learn More</button></Link> 
                 </div>
 
                 <div className='bg-white shadow-lg rounded-2xl p-8 mt-4'>

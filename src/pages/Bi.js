@@ -17,11 +17,11 @@ const Bi = () => {
 
             <div className='flex justify-between mx-24'>
             <div className='pt-32'>
-                <h1 className='text-[#002E5A] text-[48px] font-bold'>Power Bi</h1>
+                <h1 className='text-[#002E5A] text-[48px] font-bold'>Power BI</h1>
                 <div className=''>
                     <div className='my-12'>
                         <p className='text-[16px] text-[#1A1A1A]'>Power BI is a Microsoft Business Intelligence tool that allows you to connect <br /> to, model and visualise data to gain insights into your organization’s data. <br /> Power BI is a Microsoft business intelligence tool used to generate insights <br /> from raw data. It is quickly becoming one of the world’s most powerful self- <br /> service business intelligence platforms, as well as an absolutely essential <br /> tool for today’s top data professionals. </p>
-                        <button className='text-white bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] py-[10px] px-[20px] rounded-3xl hover:text-[#DA7717] my-6'>Get started </button>
+                        <a href="https://forms.office.com/r/byt4i0VjfR"> <button className='text-white bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] py-[10px] px-[20px] rounded-3xl hover:text-[#DA7717] my-6'>Get started </button> </a>
                     </div>
 
                 <div className='mx-5'>

@@ -20,7 +20,7 @@ const Contact = () => {
 
         <div className='border border-[#002E5A] pl-10 pr-28 pt-36 hover:bg-[#DA7717] duration-1000 cursor-pointer'>
           <img src={ContactCube} alt="" />
-          <h1 className='text-[17px] lg:text-[20px] text-[#1A1A1A] font-semibold'>Place an order</h1>
+          <h1 className='text-[17px] lg:text-[20px] text-[#1A1A1A] font-semibold'>Place an order</h1> 
         </div>
       </div>
     </div>

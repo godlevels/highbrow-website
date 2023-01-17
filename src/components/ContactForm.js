@@ -43,7 +43,7 @@ const ContactForm = () => {
                     <h1 className='text-[18px] text-[#000000]'>You can reach us at</h1>
                     <ul>
                         <li className='text-[16px] text-[#002E5A] font-medium'>highbrowresearch@gmail.com</li>
-                        <li className='text-[16px] text-[#002E5A] font-medium'>info@highbrowresearch.com</li>
+                        <li className='text-[16px] text-[#002E5A] font-medium'>hello@highbrowresearch.com</li>
                         <li className='text-[16px] text-[#002E5A] font-medium'>customercare@highbrowresearch.com</li>
                     </ul>
                 </div>
@@ -52,12 +52,14 @@ const ContactForm = () => {
             <div className='flex gap-3'>
                 <img className='h-4 mt-2' src={WhatsApp} alt="" />
                 <div className='mb-8'>
-                    <h2 className='text-[20px] font-[#002E5A] font-semibold'>Prefer WharsApp?</h2>
+                    <h2 className='text-[20px] font-[#002E5A] font-semibold'>Prefer WhatsApp?</h2>
                     <h1 className='text-[18px] text-[#000000]'>You can also reach us at</h1>
                     <ul>
                         <li className='text-[16px] text-[#002E5A] font-medium'>highbrowresearch@gmail.com</li>
-                        <li className='text-[16px] text-[#002E5A] font-medium'>info@highbrowresearch.com</li>
-                        <li className='text-[16px] text-[#002E5A] font-medium'>customercare@highbrowresearch.com</li>
+                        <li className='text-[16px] text-[#002E5A] font-medium'>+234 701 280 7297</li>
+                        <li className='text-[16px] text-[#002E5A] font-medium'>+234 912 259 3441</li>
+                        <li className='text-[16px] text-[#002E5A] font-medium'>+234 704 295 0801</li>
+                        
                     </ul>
                 </div>
             </div>

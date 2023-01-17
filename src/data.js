@@ -183,7 +183,7 @@ export const testimonials = {
 
     {
       message: "I can confidently advise anyone in need of a personal statement for a scholarship to the UK or any other country to use Highbrow Research. I contacted them to write my personal statement and they did a fantastic job. In ddition to being accepted to the school, I also received a scholarship. My plagiarism report was delivered with my personal statement as well",
-      image: AvartarImg6,
+      image: AvartarImg6, 
       name: 'George Mbaise',
       borderColor: '#4756DF',
     },

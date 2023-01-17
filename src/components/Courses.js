@@ -12,10 +12,10 @@ const Courses = () => {
                 <div className=''>
                     <img className='h-32 mt-5' src={Logo} alt="" />
                     <p className='text-[18px] font-medium'>We offer a series of professional training on Data <br /> analysis using Excel, SQL, PowerBI, and Python.</p>
-                    <img className='flex justify-center items-center h-28 mx-36 mt-10' src={ArrowLine} alt="" />
+                    <img className='flex justify-center items-center md:h-28 mx-36 mt-10' src={ArrowLine} alt="" />
                 </div>
                 <div>
-                    <img className='h-[390px]' src={CourseImage} alt="" />
+                    <img className='md:h-[390px]' src={CourseImage} alt="" />
                 </div>
             </div>
 

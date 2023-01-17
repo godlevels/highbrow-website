@@ -10,7 +10,7 @@ import Cal from '../img/businessplan/frames.png'
 import Sets from '../img/businessplan/framess.png'
 import Lines from '../img/businessplan/rects.png'
 import WorkH from '../img/businessplan/head.png'
-import SideC from '../img/businessplan/circle.png'
+import SideC from '../img/businessprofile/circle.png'
 import Talk from '../components/Talk'
 import Footer from '../components/Footer'
 
