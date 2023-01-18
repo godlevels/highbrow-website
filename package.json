@@ -10,11 +10,21 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.12",
     "counterup": "^1.0.2",
+    "framer-motion": "^7.5.2",
+    "postcss": "^8.4.16",
+    "react": "^18.2.0",
+    "react-circular-progressbar": "^2.1.0",
     "react-countup": "^6.3.2",
+    "react-dom": "^18.2.0",
+    "react-grid-gallery": "^1.0.0",
     "react-html5video": "^2.5.1",
+    "react-icons": "^4.4.0",
+    "react-intersection-observer": "^9.4.0",
     "react-parallax": "^3.5.1",
     "react-paystack": "^4.0.2",
+    "react-photo-album": "^1.16.1",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.8",
@@ -22,23 +32,12 @@
     "react-slider-swiper": "^2.0.6",
     "react-swiper": "^0.1.5",
     "react-tsparticles": "^2.5.3",
-    "scroll-trigger": "^1.0.0",
-    "tsparticles": "^2.5.3",
-    "web-vitals": "^2.1.4",
-    "autoprefixer": "^10.4.12",
-    "framer-motion": "^7.5.2",
-    "postcss": "^8.4.16",
-    "react": "^18.2.0",
-    "react-circular-progressbar": "^2.1.0",
-    "react-dom": "^18.2.0",
-    "react-grid-gallery": "^1.0.0",
-    "react-icons": "^4.4.0",
-    "react-intersection-observer": "^9.4.0",
-    "react-modal-video": "^1.2.10",
-    "react-photo-album": "^1.16.1",
     "sass": "^1.55.0",
+    "scroll-trigger": "^1.0.0",
     "swiper": "^8.4.2",
     "tailwindcss": "^3.1.8",
+    "tsparticles": "^2.5.3",
+    "web-vitals": "^2.1.4",
     "yet-another-react-lightbox": "^2.1.1"
   },
   "scripts": {
@@ -64,8 +63,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    
   }
 }
