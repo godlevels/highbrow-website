@@ -21,7 +21,7 @@ const Excel = () => {
                 <div className=''>
                     <div className='my-12'>
                         <p className='text-[16px] text-[#1A1A1A]'>Microsoft Excel is the industry leading spread sheet program, a powerful <br /> data visualization and analysis tool. This training is hands on and project <br /> based to help consolidate your learnings.</p>
-                        <a href="https://forms.office.com/r/byt4i0VjfR"> <button className='text-white bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] py-[10px] px-[20px] rounded-3xl hover:text-[#DA7717] my-6'>Get started </button></a>
+                        <a href="https://forms.office.com/r/byt4i0VjfR"> <button className='text-white bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] py-[10px] px-[20px] rounded-3xl hover:text-[#DA7717] my-6'>Get started</button></a>
                     </div>
 
                 <div className='mx-5'>
