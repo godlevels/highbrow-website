@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
  
 const About = () => {
-  return <section className='mt-[520px] lg:mt-[616px] py-12 bg-gradient-to-r from-[#002E5A] to-[#0D5EBB]'>
+  return <section className='mt-[520px] lg:mt-[616px] py-12 bg-gradient-to-r from-[#002E5A] to-[#0D5EBB]'> 
     <div className="container mx-auto">
       <div className='flex flex-col lg:flex-row gap-24 lg:justify-around mx-12 lg:mx-10'>
         <motion.div
