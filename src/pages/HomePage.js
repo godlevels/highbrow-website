@@ -22,7 +22,7 @@ const HomePage = () => {
       setLoading(false)
     },3000)
   },[])
-  return (
+  return ( 
     <div className=''>
       {
         loading ?

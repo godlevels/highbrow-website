@@ -21,9 +21,9 @@ const Header = () => {
     })
   })
   return <div className={`${ bg ? 'bg-white py-4 lg:py-6 shadow-md' : 'bg-none'} fixed mt-0 w-full px-[30px] lg:px-[100px] z-30 h-[70px] lg:h-[70px] flex items-center`}>
-    <div className="flex flex-col md:flex-row md:items-center w-full justify-between">
+    <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
       <nav className='flex justify-between'>
-        <ul className='hidden md:flex gap-x-12 font-medium cursor-pointer'> 
+        <ul className='hidden xl:flex gap-x-12 font-medium cursor-pointer'> 
           <Link to='/'><li className='text-[#1A1A1A]  hover:text-[#DA7717] hover:border-b hover:border-[#DA7717] transition ease-in duration-500'>Home</li></Link>
           <Link><li className='text-[#1A1A1A]  hover:text-[#DA7717] hover:border-b hover:border-[#DA7717] transition ease-in duration-500'>
             <Menu as='div' className="relative inline-block text-left">

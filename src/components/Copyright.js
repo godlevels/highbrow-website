@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { footerData } from '../data';
-import { Link } from 'react-router-dom';
 
 const Copyright = () => {
   const { footadd } = footerData
@@ -28,9 +27,9 @@ const Copyright = () => {
             delay: '0.2',
           }}
           viewport={{once: false, amount: 0}} className='flex gap-x-5 my-3 cursor-pointer'>
-          <Link to='https://www.instagram.com/tv/CSDL2band_x/?igshid=YmMyMTA2M2Y='><img className='hover:translate-y-1 duration-500' src={footadd.insta} alt="" /></Link>
-          <Link to='https://www.facebook.com/profile.php?id=100064903179873&mibextid=LQQJ4d'><img className='hover:translate-y-1 duration-500' src={footadd.face} alt="" /></Link>
-          <Link to='https://twitter.com/highbrowr?t=7QvvV9Jcip1KS5ks2D8lUg&s=09'><img className='hover:translate-y-1 duration-500' src={footadd.twit} alt="" /></Link>
+          <a href="https://www.instagram.com/tv/CSDL2band_x/?igshid=YmMyMTA2M2Y=" target="_blank"><img className='hover:translate-y-1 duration-500' src={footadd.insta} alt="" /></a>
+          <a href="https://www.facebook.com/profile.php?id=100064903179873&mibextid=LQQJ4d" target="_blank"><img className='hover:translate-y-1 duration-500' src={footadd.face} alt="" /></a>
+          <a href="https://twitter.com/highbrowr?t=7QvvV9Jcip1KS5ks2D8lUg&s=09" target="_blank"><img className='hover:translate-y-1 duration-500' src={footadd.twit} alt="" /></a>
         </motion.div>
       </div>
     </div>

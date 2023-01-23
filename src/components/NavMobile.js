@@ -25,7 +25,7 @@ const NavMobile = () => {
   const [openMenu, setOpenMenu] = useState(false)
 
 
-  return <nav className='text-primary flex xl:hidden'>
+  return <nav className='text-primary flex lg:hidden'>
     <div onClick={()=> setOpenMenu(true)} className='text-3xl cursor-pointer'>
       <CgMenuRight /> 
     </div>
