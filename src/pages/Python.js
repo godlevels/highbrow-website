@@ -1,15 +1,15 @@
 import React from 'react'
 import Header from '../components/Header'
-import Rect from '../img/bi/side.png'
+import Rect from '../img/bi/side.svg'
 import Rocks from '../img/bi/rock.png'
 import Macs from '../img/bi/mac.png'
 import Lines from '../img/bi/line.png'
 import Winds from '../img/bi/wind.png'
-import ManSide from '../img/bi/mans.png'
+import ManSide from '../img/bi/mans.svg'
 import Liness from '../img/bi/lines.png'
 import Talk from '../components/Talk'
 import Footer from '../components/Footer'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const Python = () => {
     return (
