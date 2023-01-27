@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants'
 import AboutImg from '../img/about/image.jpeg'
-import AboutTitle from '../img/about/about.png'
+import AboutTitle from '../img/about/about.svg'
 import { Link } from 'react-router-dom';
 // import ModalVideo from 'react-modal-video';
 // import '../modalVideo.scss'
-// import { IoMdArrowForward } from 'react-icons/io'; 
+// import { IoMdArrowForward } from 'react-icons/io';  
 
  
 const About = () => {
@@ -36,7 +36,7 @@ const About = () => {
         whileInView={'show'}
         viewport={{once: false, amount: 0.6}}
         >
-          <img className='object-cover h-[400px] w-[566px] md:mx-auto lg:mx-0 rounded-md' src={AboutImg} alt="" />
+          <img className='object-cover h-[350px] w-[566px] md:mt-10 md:mx-auto lg:mx-0 rounded-md' src={AboutImg} alt="" />
         </motion.div>
       </div>
     </div>

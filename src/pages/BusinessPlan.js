@@ -39,7 +39,7 @@ const BusinessPlan = () => {
 
                 <div className='flex justify-between bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] mx-12 rounded-xl px-16 mt-12 absolute'>
                     <div>
-                        <div className='flex gap-52'>
+                        <div className='flex gap-56'>
                             <div className='mt-[200px]'>
                                 <h1 className='capitalize text-[#F3F0EB] text-[48px] font-bold'>we write <span className='text-[#DA7717]'>outstanding</span></h1>
                                 <div className='flex gap-10'>

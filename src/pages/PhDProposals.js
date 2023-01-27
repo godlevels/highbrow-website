@@ -38,7 +38,7 @@ const PhDProposals = () => {
 
     <div className='flex justify-between bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] mx-12 rounded-xl px-16 mt-12 absolute'>
         <div>
-            <div className='flex gap-52'>
+            <div className='flex gap-[200px]'>
                 <div className='mt-[200px]'>
                     <h1 className='capitalize text-[#F3F0EB] text-[48px] font-bold'>We Write the <span className='text-[#DA7717]'>Best</span> <br /> PhD Proposals.</h1>
                     <p className='text-[#F3F0EB] text-[16px]'>Stand a higher chance to secure a PhD opening with our neatly written PhD <br /> Proposals. Your PhD Proposal is the first step to securing a scholarship with <br /> grants, which means it must be thoroughly written. </p>

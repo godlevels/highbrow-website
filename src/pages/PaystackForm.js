@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Header from '../components/Header'
-import Sides from '../img/Paystack/content.png'
+import Sides from '../img/Paystack/content.svg'
 import PaystackPop from '@paystack/inline-js'
+import title from "../img/Paystack/head.svg"
 
 const PaystackForm = () => {
 
@@ -34,7 +35,7 @@ const PaystackForm = () => {
         <section>
             <Header />
 
-            <div className='flex justify-between pt-24 mx-24 mb-10'>
+            <div className='flex justify-between gap-x-10 pt-24 mx-24 mb-10'>
                 <div>
                     <h1 className='text-[#002E5A] text-[44px] font-semibold'>Place an order</h1>
                     <p className='text-[16px] text-[#1a1a1a]'>Please fill this order form to help us know your needs</p>
@@ -67,7 +68,8 @@ const PaystackForm = () => {
                     </div>
                 </div>
                 <div className='bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] rounded-md min-h-[500px]'>
-                    <img src={Sides} alt="" />
+                    <img src={title} className="m-10" alt="" />
+                    <img src={Sides} className="mx-10 h-[500px]" alt="" />
                 </div>
             </div>
         </section>

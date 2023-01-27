@@ -28,7 +28,7 @@ const PersonalState = () => {
 
     <div className='flex justify-between bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] mx-12 rounded-xl px-16 mt-12 absolute'>
         <div>
-            <div className='flex gap-52'>
+            <div className='flex gap-[185px]'>
                 <div className='mt-[200px]'>
                     <h1 className='capitalize text-[#F3F0EB] text-[48px] font-bold'>We Write the <span className='text-[#DA7717]'>Best</span> <br /> Personal Statements for <br />Graduate Admissions.</h1>
                     <p className='text-[#F3F0EB] text-[16px]'>Stand a higher chance to gain that admission or scholarship with <br /> our Personal Statement.</p>

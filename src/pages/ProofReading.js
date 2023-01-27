@@ -27,7 +27,7 @@ const ProofReading = () => {
 
     <div className='flex justify-between bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] mx-12 rounded-xl px-16 mt-12 absolute'>
         <div>
-            <div className='flex gap-52'>
+            <div className='flex gap-64'>
                 <div className='mt-[200px]'>
                     <h1 className='capitalize text-[#F3F0EB] text-[48px] font-bold'>We <span className='text-[#DA7717]'>Polish</span> Your Work <br />to Perfection.</h1>
                     <p className='text-[#F3F0EB] text-[16px]'>Deliver a document that is flawlessly written and free of <br /> embarrassing errors. </p>

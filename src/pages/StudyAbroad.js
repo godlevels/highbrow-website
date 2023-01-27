@@ -38,9 +38,9 @@ const StudyAbroad = () => {
 
     <div className='flex justify-between bg-gradient-to-r from-[#002E5A] to-[#0D5EBB] mx-12 rounded-xl px-16 mt-12 absolute'>
         <div>
-            <div className='flex gap-52'>
+            <div className='flex gap-28'>
                 <div className='mt-[200px]'>
-                    <h1 className='capitalize text-[#F3F0EB] text-[48px] font-bold'>Apply for your <span className='text-[#DA7717]'>Study Visa</span> <br /> application with Highbrow <br />Research</h1>
+                    <h1 className='capitalize text-[#F3F0EB] text-[48px] font-bold'>Apply for your <span className='text-[#DA7717]'>Study Visa</span> <br /> application with Highbrow <br /> Research</h1>
                     <p className='text-[#F3F0EB] text-[16px]'>Make your profile stand out to colleagues and recruiters on the platform.</p>
                 </div>
                 <div>
