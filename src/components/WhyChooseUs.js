@@ -1,5 +1,5 @@
 import React from 'react'
-import WhyHead from '../img/whychoose/whyhead.png'
+import WhyHead from '../img/whychoose/whyhead.svg'
 import { WhyChooseData } from '../data'
 
 
@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
                         <div>
                             <h1 className='text-[#1A1A1A] text-[20px] font-medium'>{item.title}</h1> 
                             <img className='h-1 mb-3' src={item.iconW} alt="" />
-                            <p className='text-[#1A1A1A] text-[16px]'>{item.subtitle}</p> 
+                            <p className='text-[#1A1A1A] text-[16px]'>{item.subtitle}</p>  
                         </div>
                     </div>
                 </div>

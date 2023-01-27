@@ -9,7 +9,7 @@ const Faq = () => {
             <div className='mx-12 my-2 md:my-0'>
                 <div>
                     <img className='h-10 mb-10' src={title} alt="" />
-                </div>
+                </div> 
 
                 <div className='grid md:grid-cols-2 gap-3 mb-14'>{accordions.map((accordion, idx)=> {
                         return <Accordion accordion={accordion} key={idx} />

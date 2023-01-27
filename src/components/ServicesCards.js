@@ -24,7 +24,7 @@ const ServicesCards = () => {
                   <div className='absolute top-5 left-5'>{item.title}</div>
                 </div>
               </div>
-            </div>
+            </div> 
           })} */}
 
 
@@ -49,7 +49,7 @@ const ServicesCards = () => {
               <div>
                 <img className='w-full h-full group-hover:scale-105 transition duration-300' src={CardTwo} alt="" />
               </div>
-              <h1 className='absolute top-5 left-5 text-[18px] text-white font-bold'>Personal Statement</h1>
+              <h1 className='absolute top-5 left-5 text-[18px] text-white font-bold hover:border-b'>Personal Statement</h1>
               <div className='bg-[#ECBB8B] pt-0 mt-0 border-t-8 border-[#ECBB8B]'>
                 <p className='text-[14px] text-[#1A1A1A] p-4'>Stand a higher chance to gain that admission or scholarship with our Personal Statement.</p>
                 <Link to='/personalstatement'><button className='text-[14px] text-[#1A1A1A] border border-[#1a1a1a] rounded-full px-3 py-1 mx-4 mb-4 hover:bg-[#1A1A1A] hover:text-[#fafafa] transition-all ease-linear duration-300'>Learn More</button></Link>

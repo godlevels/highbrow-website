@@ -2,7 +2,7 @@ import React from 'react';
 import { footerData } from '../data';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import FootLogo from '../img/footer/footlog.png'
+import FootLogo from '../img/footer/footlog.svg'
 
 const staggerContainer = {
   hidden: {},

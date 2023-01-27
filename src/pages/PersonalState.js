@@ -6,8 +6,8 @@ import Fra from '../img/businessplan/Frame.png'
 import Cal from '../img/businessplan/frames.png'
 import Sets from '../img/businessplan/framess.png'
 import Lines from '../img/businessplan/rects.png'
-import WorkH from '../img/businessplan/head.png'
-import SideC from '../img/personal/circle.png'
+import WorkH from '../img/businessplan/head.svg'
+import SideC from '../img/personal/circle.svg'
 import Talk from '../components/Talk'
 import Footer from '../components/Footer'
 
@@ -113,7 +113,7 @@ const PersonalState = () => {
 </div>
 <Talk />
 <Footer />
-        </div>
+        </div> 
     )
 }
 

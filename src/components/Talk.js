@@ -1,6 +1,6 @@
 import React from 'react'
 import talkLine from '../img/talk/line.png'
-import callIcon from '../img/talk/call.png'
+import callIcon from '../img/talk/call.svg'
 import { Link } from 'react-router-dom'
 
 const Talk = () => {

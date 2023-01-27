@@ -9,15 +9,15 @@ import Fra from '../img/businessplan/Frame.png'
 import Cal from '../img/businessplan/frames.png'
 import Sets from '../img/businessplan/framess.png'
 import Lines from '../img/businessplan/rects.png'
-import WorkH from '../img/businessplan/head.png'
-import SideC from '../img/professional/circle.png'
+import WorkH from '../img/businessplan/head.svg'
+import SideC from '../img/professional/circle.svg'
 import Talk from '../components/Talk'
 import Footer from '../components/Footer'
 
 const ProfessionalCv = () => {
     return (
         <div>
-        <Header />
+        <Header /> 
 
 <div className='mx-auto container'>
     <h1 className='text-[48px] text-[#002E5A] font-bold pt-24 pb-20 capitalize mx-12'>services we provide</h1>

@@ -19,7 +19,7 @@ import serviceEight from '../src/img/service/eight.png'
 import imageT from '../src/img/whychoose/whyline.png'
 import imageL from '../src/img/whychoose/cube.png'
 import QuoteImg from '../src/img/testimonial/quote.svg';
-import FaqHead from '../src/img/faq/fa.png'
+import FaqHead from '../src/img/faq/fa.svg'
 import AvartarImg1 from '../src/img/testimonial/Amanda.png'
 import AvartarImg2 from '../src/img/testimonial/Edochie.png'
 import AvartarImg3 from '../src/img/testimonial/Tijani.png'

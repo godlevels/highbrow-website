@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from '../img/courses/courseI.png'
-import ArrowLine from '../img/courses/arrow.png'
+import Logo from '../img/courses/coursels.svg'
+import ArrowLine from '../img/courses/arrow.svg'
 import CourseImage from '../img/courses/courseL.png'
 import CoursesCards from './CoursesCards'
 
@@ -15,7 +15,7 @@ const Courses = () => {
                     <img className='flex justify-center items-center md:h-28 mx-36 mt-10' src={ArrowLine} alt="" />
                 </div>
                 <div>
-                    <img className='md:h-[390px]' src={CourseImage} alt="" />
+                    <img className='md:h-[390px]' src={CourseImage} alt="" /> 
                 </div>
             </div>
 

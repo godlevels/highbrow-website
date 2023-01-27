@@ -34,7 +34,7 @@ const HomePage = () => {
         data-testid="loader"
       /> :
       <div>
-        <Header />
+        <Header /> 
         <Hero />
         <About />
         <Services />

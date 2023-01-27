@@ -12,7 +12,7 @@ const Experience = () => {
   const [counterOn, setCounterOn] = useState(false)
 
   return (
-    <section>
+    <section> 
       <div  className='bg-[#002E5A] pb-20'>
         <div className='container mx-auto'>
           <div className='flex justify-between mx-8 lg:mx-12 py-14 gap-2 lg:gap-20'>

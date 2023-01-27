@@ -4,7 +4,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/autoplay'
 
-const ClientSlider = ({clients}) => {
+const ClientSlider = ({clients}) => { 
     return (
         <Swiper 
             modules={[Navigation, Pagination, Autoplay]}

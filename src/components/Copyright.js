@@ -26,7 +26,7 @@ const Copyright = () => {
             duration: '0.8',
             delay: '0.2',
           }}
-          viewport={{once: false, amount: 0}} className='flex gap-x-5 my-3 cursor-pointer'>
+          viewport={{once: false, amount: 0}} className='flex gap-x-5 cursor-pointer'>
           <a href="https://www.instagram.com/tv/CSDL2band_x/?igshid=YmMyMTA2M2Y=" target="_blank"><img className='hover:translate-y-1 duration-500' src={footadd.insta} alt="" /></a>
           <a href="https://www.facebook.com/profile.php?id=100064903179873&mibextid=LQQJ4d" target="_blank"><img className='hover:translate-y-1 duration-500' src={footadd.face} alt="" /></a>
           <a href="https://twitter.com/highbrowr?t=7QvvV9Jcip1KS5ks2D8lUg&s=09" target="_blank"><img className='hover:translate-y-1 duration-500' src={footadd.twit} alt="" /></a>
